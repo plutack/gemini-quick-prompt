@@ -9,10 +9,11 @@ A CLI tool designed to quickly provide insights into programming functions, fram
     ```
     <!-- OR -->
 <!-- 1. Alternatively, download the pre-built binary from the releases page or run the command below, place it in a directory of your choice, and add that directory to your PATH. --> 
-    <!-- ```sh -->
-    <!-- curl -fSL -o gemini-quick-prompt https://github.com/plutack/gemini-quick-prompt/releases/latest/download/gemini-quick-prompt -->
-    <!-- ``` -->
-    
+<!---
+    ```sh
+    curl -fSL -o gemini-quick-prompt https://github.com/plutack/gemini-quick-prompt/releases/latest/download/gemini-quick-prompt
+    ```
+-->
 ##  How to use
 1. get a [gemini API key](https://ai.google.dev/gemini-api/docs/api-key) here
 2. set gemini_api_key as an enviroment variable. This will differ depending on the operating system you use

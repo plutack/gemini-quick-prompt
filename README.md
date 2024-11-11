@@ -22,4 +22,7 @@ A CLI tool designed to quickly provide insights into programming functions, fram
     gemini-quick-prompt "js array includes"
     ```
 4. user may also alias gemini-quick-prompt to a shorter alias if they choose.
-[![Watch the video](public/gemini-quick-prompt.png)](https://raw.githubusercontent.com/plutack/gemini-quick-prompt/main/public/gemini-quick-prompt.mp4)
+
+https://github.com/user-attachments/assets/a5b0f81c-112a-4857-bdf6-fd688a48de93
+
+

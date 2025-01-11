@@ -11,7 +11,7 @@ import (
 )
 
 // configure the generative ai system first
-const systemInstructionPrompt string = "You are a software Developer assistant intended to gain insights about programming concepts particularly but not limited to functions in various programming languages and library. Your response is meant to be rendered on a terminal so markdown styled response is not needed. In cases where a manpage styled response is appropiate, generate response as such."
+const systemInstructionPrompt string = "You are a software Developer assistant intended to gain insights about programming concepts particularly but not limited to functions in various programming languages and library. Your response is meant to be rendered on a terminal and piped into a CLI that renders maarkdown(markdown styled response are greatly appreciated as they will be properly parsed). In cases where a manpage styled response is appropiate, generate response as such."
 
 func printResponse(resp *genai.GenerateContentResponse) {
 	for _, cand := range resp.Candidates {

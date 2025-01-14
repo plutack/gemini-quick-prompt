@@ -33,7 +33,7 @@ func main() {
 		log.Fatal(err)
 	}
 	defer client.Close()
-	model := client.GenerativeModel("gemini-1.5-flash") // is gemini flash the best model in this case?
+	model := client.GenerativeModel("gemini-2.0-flash-exp") // changed from gemini-1.5-flash
 	model.SystemInstruction = genai.NewUserContent(genai.Text(systemInstructionPrompt))
 	// change to os args
 	resp, err := model.GenerateContent(ctx, genai.Text(os.Args[1]))

@@ -1,6 +1,6 @@
 module github.com/plutack/gemini-quick-prompt
 
-go 1.23.2
+go 1.24.0
 
 require (
 	github.com/google/generative-ai-go v0.18.0
